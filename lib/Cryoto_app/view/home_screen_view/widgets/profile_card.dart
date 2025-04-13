@@ -12,7 +12,7 @@ class ProfileCard extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Stack(children: [
         Container(
-          height: 260,
+          height: 280,
           width: 380,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),

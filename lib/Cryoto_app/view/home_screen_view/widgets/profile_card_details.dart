@@ -42,7 +42,7 @@ class ProfileCardDetails extends StatelessWidget {
           ],
         ),
         SizedBox(
-          height: 25,
+          height: 35,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

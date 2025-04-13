@@ -18,7 +18,7 @@ class RecentTransactionsTab extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               )),
           const SizedBox(
-            height: 8,
+            height: 12,
           ),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
