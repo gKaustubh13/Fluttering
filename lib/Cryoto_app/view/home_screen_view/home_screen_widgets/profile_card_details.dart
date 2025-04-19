@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/widgets/crypto_actions.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/widgets/profile_tab.dart';
+import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/crypto_actions.dart';
+import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/profile_tab.dart';
 
 class ProfileCardDetails extends StatelessWidget {
   const ProfileCardDetails({

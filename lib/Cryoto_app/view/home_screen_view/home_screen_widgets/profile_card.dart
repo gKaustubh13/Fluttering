@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/widgets/profile_card_details.dart';
+import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/profile_card_details.dart';
 
 class ProfileCard extends StatelessWidget {
   const ProfileCard({
