@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/eth_info_card.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/exchange_summary.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/exchange_title.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/swap_button_widget.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/swap_icon_button_widget.dart';
+import 'package:intro_app/Cryoto_app/view/exchange_screen_view/widgets/usd_info_card.dart';
 
 class ExchangeScreen extends StatelessWidget {
   const ExchangeScreen({super.key});
@@ -6,18 +12,38 @@ class ExchangeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(Icons.arrow_back),
-        title: Row(
-          children: [
-            SizedBox(width: 75),
-            Text("Exchange"),
-          ],
+      backgroundColor: const Color(0xFFF5F5F5),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: Column(
+            children: [
+              Excahnge_title(),
+
+              Stack(
+                children: [
+                  Column(
+                    children: [
+                      Eth_info_card(),
+
+                      const SizedBox(height: 16),
+                      Usd_info_card(),
+                    ],
+                  ),
+                  Swap_icon_button_widget(),
+                ],
+              ),
+
+              const SizedBox(height: 16),
+
+              SwapButtonWidget(),
+
+              const SizedBox(height: 16),
+
+              ExgchangeSummary(),
+            ],
+          ),
         ),
-        backgroundColor: Colors.white,
-      ),
-      body: Center(
-        child: Text("Exchange Screen"),
       ),
     );
   }
