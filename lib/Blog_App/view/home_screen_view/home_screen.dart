@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intro_app/Blog_App/service/blog_database_service.dart';
-import 'package:intro_app/Blog_App/view/widgets/blog_card_widgets.dart';
-import 'package:intro_app/Blog_App/view/widgets/home_screen_app_bar_user_icon.dart';
+import 'package:intro_app/Blog_App/view/home_screen_view/home_screen_widgets/blog_card_widgets.dart';
+import 'package:intro_app/Blog_App/view/home_screen_view/home_screen_widgets/home_screen_app_bar_user_icon.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -53,7 +53,6 @@ class HomeScreen extends StatelessWidget {
   }
 
   List<Widget> buildBlogCards() {
-    // List<BlogModel> -> List<BlogCardWidget>
     return blogDatabaseService.blogs.map((blogModel) {
       return BlogCardWidget(blogModel: blogModel);
     }).toList();
