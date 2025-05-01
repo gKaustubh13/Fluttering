@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/bottom_nav_bar.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/crypto_currency_card.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/crypto_tab.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/profile_card.dart';
-import 'package:intro_app/Cryoto_app/view/home_screen_view/home_screen_widgets/recent_transactions_tab.dart';
+import 'package:intro_app/Crypto_app/view/home_screen_view/home_screen_widgets/bottom_nav_bar.dart';
+import 'package:intro_app/Crypto_app/view/home_screen_view/home_screen_widgets/crypto_currency_card.dart';
+import 'package:intro_app/Crypto_app/view/home_screen_view/home_screen_widgets/crypto_tab.dart';
+import 'package:intro_app/Crypto_app/view/home_screen_view/home_screen_widgets/profile_card.dart';
+import 'package:intro_app/Crypto_app/view/home_screen_view/home_screen_widgets/recent_transactions_tab.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

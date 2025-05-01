@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/eth_info_card.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/exchange_summary.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/exchange_title.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/swap_button_widget.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/swap_icon_button_widget.dart';
-import 'package:intro_app/Cryoto_app/view/exchange_screen_view/exchange_screen_widgets/usd_info_card.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/eth_info_card.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/exchange_summary.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/exchange_title.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/swap_button_widget.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/swap_icon_button_widget.dart';
+import 'package:intro_app/Crypto_app/view/exchange_screen_view/exchange_screen_widgets/usd_info_card.dart';
 
 class ExchangeScreen extends StatelessWidget {
   const ExchangeScreen({super.key});
