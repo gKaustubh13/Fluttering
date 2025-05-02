@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Excahnge_title extends StatelessWidget {
-  const Excahnge_title({
+class ExcahngeTitle extends StatelessWidget {
+  const ExcahngeTitle({
     super.key,
   });
 

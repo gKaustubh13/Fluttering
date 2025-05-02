@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Usd_info_card extends StatelessWidget {
-  const Usd_info_card({super.key,});
+class UsdInfoCard extends StatelessWidget {
+  const UsdInfoCard({super.key,});
 
   @override
   Widget build(BuildContext context) {

@@ -18,19 +18,19 @@ class ExchangeScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: Column(
             children: [
-              Excahnge_title(),
+              ExcahngeTitle(),
 
               Stack(
                 children: [
                   Column(
                     children: [
-                      Eth_info_card(),
+                      EthInfoCard(),
 
                       const SizedBox(height: 16),
-                      Usd_info_card(),
+                      UsdInfoCard(),
                     ],
                   ),
-                  Swap_icon_button_widget(),
+                  SwapIconButtonWidget(),
                 ],
               ),
 

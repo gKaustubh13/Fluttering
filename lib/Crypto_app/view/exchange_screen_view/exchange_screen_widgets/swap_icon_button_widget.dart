@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Swap_icon_button_widget extends StatelessWidget {
-  const Swap_icon_button_widget({
+class SwapIconButtonWidget extends StatelessWidget {
+  const SwapIconButtonWidget({
     super.key,
   });
 

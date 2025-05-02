@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Eth_info_card extends StatelessWidget {
-  const Eth_info_card({
+class EthInfoCard extends StatelessWidget {
+  const EthInfoCard({
     super.key,
   });
 

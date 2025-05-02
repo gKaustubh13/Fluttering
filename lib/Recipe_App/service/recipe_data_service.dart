@@ -1,7 +1,7 @@
 import 'package:intro_app/Recipe_App/model/recipe_model.dart';
 
 class RecipeDataService {
-  final RecipeDataList = [
+  final recipeDataList = [
     {
       "id": 1,
       "name": "Classic Margherita Pizza",
@@ -1057,7 +1057,7 @@ class RecipeDataService {
   ];
 
   List<RecipeModel> getRecipes(){
-    return RecipeDataList.map((map){
+    return recipeDataList.map((map){
        return RecipeModel(
         id: map['id'] as int,
         name: map['name'] as String,

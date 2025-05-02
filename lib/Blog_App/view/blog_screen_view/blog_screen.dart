@@ -6,7 +6,7 @@ import 'package:intro_app/Blog_App/view/blog_screen_view/blog_screen_widgets/blo
 class BlogScreen extends StatelessWidget {
   final BlogModel blog;
 
-  const BlogScreen({Key? key, required this.blog}) : super(key: key);
+  const BlogScreen({super.key, required this.blog});
 
   @override
   Widget build(BuildContext context) {
